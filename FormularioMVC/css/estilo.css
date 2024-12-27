@@ -1,0 +1,108 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 40px;
+    background-color: rgb(87, 145, 139);
+    
+}
+
+a.btn, input[type="submit"].btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    border: nome;
+    cursor:pointer;
+}
+
+a.btn:hover, input[type="submit"].btn:hover {
+    background-color: #45a049;
+}
+
+.styled-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 18px;
+    text-align: left;
+    border: 3px solid #0c0c0c;
+}
+
+.styled-table th, .styled-table td {
+    padding: 12px 15px;
+    border: 3px solid #0c0c0c
+}
+
+.styled-table thead tr {
+    background-color: #009879;
+    color: #ffffff;
+    text-align: left;
+}
+
+.styled-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.styled-table tbody tr:last-of-type {
+    border-bottom: 2px solid #009879;
+}
+
+.styled-table tbody tr:hover {
+    background-color: #985555;
+}
+
+.form-editar{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: auto;
+}
+
+.form-editar label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-editar .input-text {
+    margin-bottom: 15px;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.form-editar .inpit-text:focus {
+    border-color: #009879;
+    outline: nome;
+}
+
+.for-cadastro {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: auto;    
+}
+
+.form-cadastro label{
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-cadastro .input-text{
+    margin-bottom: 15px;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.form-cadastro .input-text:focus {
+    border: 1px solid #009879;
+    outline: none;
+}
